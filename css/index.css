@@ -1,0 +1,22 @@
+.body
+{
+    background: #000000;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-text
+{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: flex;
+}
+
+.second-text
+{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: flex-end;
+}
