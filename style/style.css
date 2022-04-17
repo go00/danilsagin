@@ -301,6 +301,18 @@ main{
     text-align: center;
 }
 
+.title__sale {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 .title__price {
     font-family: 'Montserrat';
     font-style: normal;
@@ -326,6 +338,18 @@ main{
 }
 
 .title__review {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title__shop{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -586,11 +610,14 @@ footer{
     object-fit: cover;
 }
 
-.block5 {
-    width: 270px;
-    min-height: 150px;
-}
 
+.tools{
+        gap: 30px;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
 .shop {
     display: flex;
     flex-wrap: wrap;
@@ -636,20 +663,23 @@ footer{
 }
 
 .haircut img{
-    width: 270px;
-    height: 270px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
-
-.block6 {
-    width: 270px;
-    min-height: 150px;
+.haircut{
+    gap: 30px;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
 }
+
 
 .hair {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 95px;
     max-width: 100%;
     margin: 0 auto;
@@ -668,19 +698,15 @@ footer{
 .hair p{
     color: #ffffff;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .hair a{
     color: #EEC122;
-    float: left;
+
     font-size: 22px;
 }
 
-.block6 img{
-    object-fit: contain;
-    border-radius: 10%;
-}
 
 .boroda p{
     font-family: 'Montserrat';
@@ -718,19 +744,6 @@ footer{
     transition: 0.5s;
 }
 
-.sale_stud{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 5%;
-}
-
-
-.sale img{
-    width: 1200px;
-    height: auto;
-}
-
 
 .block10{
     font-family: 'Montserrat';
@@ -742,6 +755,26 @@ footer{
     padding: 5% 0;
     width: 60%;
 }
+
+.saleinfo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        max-width: 1260px;
+        margin: 0 auto;
+        padding: 0 20px;
+}
+
+.shop{
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        max-width: 1260px;
+        margin: 0 auto;
+}
+
+
 
 
 @media screen and (max-width: 1441px){
@@ -769,7 +802,15 @@ footer{
         justify-content: center;
     }
 
+    .saleinfo .block__button{
+        justify-content: center;
+    }
+
     .masterinfo {
+        display: block;
+    }
+
+    .saleinfo{
         display: block;
     }
     .priceinfo {
@@ -881,6 +922,10 @@ footer{
         transform: translateY(0);
         transition: all 0.5s ease-in-out;
     }
+    .hair{
+        justify-content: space-evenly;
+        padding: 40px;
+    }
 }
 
 @media screen and (max-width: 698px) {
@@ -890,6 +935,13 @@ footer{
 
     .block1:not(:last-child) {
         margin-bottom: 20px;
+    }
+    .shop{
+        justify-content: center;
+    }
+    .shop a{
+        text-align: center;
+        float: none;
     }
 }
 

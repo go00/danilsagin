@@ -11,66 +11,109 @@
     <title>Скидка</title>
 </head>
 <body>
-        <header>
-            <div class="contaner">
-                <div class="left-header">
-                    <img src="img/logo.png">
-                </div>
-                <div class="right-header">
-                    <a href="index.html">Главная</a>
-                    <a href="shop.html">Магазин</a>
-                    <a href="haircut.html">Стрижки</a>
-                    <a href="sale.html">Скидка</a>
-                </div>
+    <header class="header__baber">
+        <div class="contaner">
+            <div class="left-header">
+                <img src="img/logo__white.svg">
             </div>
-        </header>
+            <div class="right-header">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="shop.html">Магазин</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="haircut.html">Стрижки</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="sale.html">Скидка</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn-reset burger" aria-label="Открыть меню">
+					<span class="burger__line"></span>
+				</button>
+            </div>
+        </div>
+    </header>
         <main>
             <div class="container">
-                <div class="header-block">
+                <div class="info-block">
                     <div class="info">
                         <h1>Барбершоп для<br> настоящих мужчин</h1>
                         <p>
                             Детально продумаываем и  создаем для вас<br>исключительно мужской стиль вместе <br>с командой мастеров<br>
                         </p>
-                        <a href="https://t.me/+kCcBCtz9H-02MWYy"><button>Записаться</button></a>
+                        <div class="block__button">
+                            <a href="https://t.me/+kCcBCtz9H-02MWYy"><button class="btn__entry">Записаться</button></a>
+                        </div>
                     </div>
                 </div>
-                <div class="sale">
-                    <h5>Скидка</h5>
-                    <div class="sale_stud">
-                        <div class="block9">
-                            <img src="img/sale копия.jpg" alt="">
-                        </div>
-                        <div class="block10">
-                            <p>Выгодная скидка студентам от нашего барбершопа позволит оставаться стильным и современным в любой обстановке. Мужские парикмахерские PluydBarb на проспекте Вернадского и улице Любинской приглашают Вас на стрижку по акции, благодаря которой высокий сервис станет доступным по демократичным ценам. Мы предлагаем высококлассные услуги для мужчин в Тольятти по записи. Профессиональный барбер поможет Вам обрести свой стиль, подчеркнуть красоту стрижки, усов и бороды. С нами Вы сможете отдохнуть от суеты большого города, зарядиться бодростью и хорошим настроением в любой день недели.</p>
+                </div>
+                <h5 class="title__sale">Скидка</h5>
+                <div class="saleinfo">
+                    <div class="block2">
+                        <img src="img/sale копия.jpg">
+                    </div>
+                    <div class="block3">
+                        <h1>Скидка всем студентам</h1>
+                        <p class="text-info">В barbershop «PluydBarb» работают настоящие профессионалы с яркой творческой индивидуальностью и умением найти подход к любому клиенту. Даже самые недоверчивые и требовательные посетители забывают про сомнения и скепсис, возвращаясь к нам снова и снова. Ведь у нас царит искренняя и непринужденная атмосфера, о которой только могут мечтать сотрудники многих мужских клубов, а солидный опыт, безупречный вкус и явный талант наших специалистов снимает все вопросы относительно того, кому в очередной раз можно доверить изменение своей внешности. Результат работы наших мастеров может вызвать восторг даже у нордически спокойного или у предельно замкнутого индивида, с опаской относящегося ко всему новому.<br>
+                        </p>
+                        <div class="block__button">
+                            <a href="https://t.me/+kCcBCtz9H-02MWYy"><button class="btn__entry">Записаться ко мне</button></a>
                         </div>
                     </div>
                 </div>
         </main>
-    <footer>
-        <div class="container">
-            <div class="logo-footer">
-                <img src="img/logo.png">
+        <footer>
+            <div class="footer__container">
+             <div class="logo-footer">
+                 <img src="img/logo__white.svg">
+             </div>
+             <div class="nav-footer">
+                 <h1>Навигация</h1>
+                 <div class="center-nav">
+                     <ul>
+                         <li><a href="index.html">Главная</a></li>
+                         <li><a href="shop.html">Магазин</a></li>
+                         <li><a href="haircut.html">Стрижка</a></li>
+                         <li><a href="sale.html">Скидка</a></li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="soc-footer">
+                 <h1>Контакты</h1>
+                 <h6>+ 7 902 159 87 84</h6>
+                 <div class="soc">
+                     <img src="img/soc/inst.png">
+                     <img src="img/soc/vk.png">
+                     <img src="img/soc/telegram.png">
+                 </div>
+             </div>
             </div>
+         </footer>
+         <div class="adaptive__head">
+            <nav class="nav-adaptive">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="shop.html">Магазин</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="haircut.html">Стрижки</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="sale.html">Скидка</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="nav-footer">
-            <h1>Навигация</h1>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="shop.html">Магазин</a></li>
-                <li><a href="haircut.html">Стрижка</a></li>
-                <li><a href="sale.html">Скидка</a></li>
-            </ul>
-        </div>
-        <div class="soc-footer">
-            <h1>Контакты</h1>
-            <h6>+ 7 964 966 74 43</h6>
-            <div class="soc">
-                <img src="img/soc/inst.png">
-                <img src="img/soc/vk.png">
-                <img src="img/soc/telegram.png">
-            </div>
-        </div>
-    </footer>
+         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
